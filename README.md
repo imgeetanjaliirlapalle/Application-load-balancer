@@ -9,15 +9,15 @@
  * Laptop Page -> 2 EC2 Instances
  * Mobile Page -> 2 EC2 Instance
 
- ## Architecture
+## Architecture
 
  The setup includes:
  1. Application Load Balancer (ALB) - Distributes incoming traffic.
  2. Target Groups - Separate target groups for Home, Laptop, and Mobile Pages.
  3. EC2 Instance - 6 instances running simple HTML pages
 
-  # Setup Steps
- ## Steps for Deployment   
+# Setup Steps
+## Steps for Deployment   
 ### Step1: launch the 6 instance home, laptop, mobile  
    •	Creating 2 instances of home.  
    •	Creating 2 instances of laptop.  
